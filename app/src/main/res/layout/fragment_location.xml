@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.haim.locationaware.LocationFragment">
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_above="@+id/etAddress"
+        android:text="My Location" />
+
+    <EditText
+        android:layout_alignParentBottom="true"
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Address..."
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        />
+
+</RelativeLayout>
